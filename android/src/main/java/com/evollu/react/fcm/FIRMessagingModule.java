@@ -27,12 +27,12 @@ import com.google.firebase.messaging.RemoteMessage.Notification;
 import android.app.Application;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.core.app.NotificationManagerCompat;
+import 	androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.util.Log;
 
 import android.content.Context;
-import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;
